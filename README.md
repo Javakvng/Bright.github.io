@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Professional Website</title>
-    <link rel="stylesheet" href="style.css"> <!-- Optional: Link to a CSS file for styling -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
 </head>
 <body>
     <header>
@@ -28,8 +28,7 @@
     </footer>
 </body>
 </html>
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,8 +58,7 @@
     </footer>
 </body>
 </html>
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

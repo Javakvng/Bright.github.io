@@ -6,19 +6,22 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
     }
     .navbar {
       background-color: green;
       padding: 10px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
     .navbar h1 {
       color: grey;
       font-size: 1.9rem;
       font-weight: 900;
       margin: 0;
-      flex-grow: 1;
     }
     .navbar a {
       font-size: 1.2rem;
@@ -31,9 +34,34 @@
     .navbar a:last-child {
       border-right: none;
     }
+    .container {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      font-size: 2rem;
+      color: green;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    .section-title {
+      font-weight: bold;
+      color: grey;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Navigation Bar -->
   <div class="navbar">
     <h1>Bright LTD</h1>
     <a href="index.html">Home</a>
@@ -41,10 +69,29 @@
     <a href="contact.html">Contact</a>
   </div>
 
-  <section>
+  <!-- Main Content Container -->
+  <div class="container">
+    <!-- Welcome Section -->
     <h2>Welcome to My Website</h2>
     <p>Hi, I’m Lee, and I am a computer science student at Captain Elechi Amadi Polytechnic. 
-    Welcome to my website where I showcase my academic and personal projects. Explore the links above to learn more about me or to get in touch.</p>
-  </section>
+    Welcome to my website where I showcase my academic and personal projects. Explore the sections below to learn more about my occupation, hobbies, services, and academic background.</p>
+    
+    <!-- Occupation Section -->
+    <h3 class="section-title">Occupation</h3>
+    <p>I am a passionate <b>forex trader</b> with years of experience in trading the financial markets. My expertise lies in analyzing currency movements, employing both fundamental and technical analysis to make informed decisions. Trading is not only a career but also a learning journey where I continually improve my skills and strategies to navigate the ever-changing market landscape.</p>
+
+    <!-- Hobby Section -->
+    <h3 class="section-title">Hobby</h3>
+    <p>One of my hobbies is working on <b>affiliate marketing</b> through Pinterest. I enjoy researching and promoting products that align with my audience's interests. This hobby allows me to combine creativity and business, helping me to sharpen my marketing skills while generating extra income. Additionally, I like exploring new technology trends and developing small software projects in my free time.</p>
+
+    <!-- Services Section -->
+    <h3 class="section-title">Services</h3>
+    <p>In addition to trading, I offer <b>consulting services</b> for individuals interested in starting their journey in forex trading. I help beginners understand the basics of market analysis, risk management, and trading psychology. Additionally, I provide guidance for affiliate marketers who want to grow their online presence, especially through platforms like Pinterest. My goal is to empower others with the knowledge to achieve financial independence.</p>
+
+    <!-- School Section -->
+    <h3 class="section-title">School</h3>
+    <p>I am currently a computer science student at <b>Captain Elechi Amadi Polytechnic</b> in Rivers State, Nigeria. I have a strong interest in networking systems and software development. My academic work includes projects such as the design and implementation of local area networks (LAN), and I am passionate about using technology to solve real-world problems, particularly in the healthcare sector.</p>
+  </div>
+
 </body>
 </html>
